@@ -9,7 +9,7 @@ every result.
 
 | Tool | The question it answers | Status |
 | --- | --- | --- |
-| [advisory-brief](https://github.com/stellarbrief/advisory-brief) | "What does this advisory or release mean for us?" Plain-language briefs for non-engineers, where every claim carries a quote that code checks against the source text. | Web app you run locally. |
+| [advisory-brief](https://github.com/stellarbrief/advisory-brief) | "What does this advisory or release mean for us?" Plain-language briefs for non-engineers, where each claim cites a quote that code checks against the source text, or is marked unknown. | Web app you run locally. |
 | [upgrade-preflight](https://github.com/stellarbrief/upgrade-preflight) | "Will my Soroban contracts behave or cost differently after the next protocol upgrade?" Runs your scenarios on two real local networks at different protocol versions and diffs the results. | CLI and GitHub Action, `v0.1.0`. |
 | [upgrade-drill](https://github.com/stellarbrief/upgrade-drill) | "What happens to a validator network during an upgrade vote?" Boots real `stellar-core` containers locally, runs a scripted vote, and reports what each node did. | CLI, `v0.1.0`. Local use only. |
 
