@@ -3,6 +3,10 @@
 Small open-source tools for people who run or build on Stellar. Each one answers a question that
 comes up around protocol upgrades and security announcements.
 
+**See them work without installing anything:** [stellarbrief.github.io](https://stellarbrief.github.io)
+shows real recorded runs that you can replay and re-analyze in your browser, with the source and date of
+every result.
+
 | Tool | The question it answers | Status |
 | --- | --- | --- |
 | [advisory-brief](https://github.com/stellarbrief/advisory-brief) | "What does this advisory or release mean for us?" Plain-language briefs for non-engineers, where every claim carries a quote that code checks against the source text. | Web app you run locally. |
